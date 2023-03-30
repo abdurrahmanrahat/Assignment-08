@@ -1,0 +1,30 @@
+[
+    {
+        "id": "6425f4674f907695a3d8bb3e",
+        "coverImage": "https://img.freepik.com/free-photo/programmer-scanning-screen-his-smartwatch-with-smartphone-camera_1098-18710.jpg?w=740&t=st=1680209840~exp=1680210440~hmac=a0e081ac05234f4d5a0ff30a4c6db6c2385c9de76d245c30221e5fc5203f02c6",
+        "authorImage": "https://img.freepik.com/free-photo/pensive-creative-freelancer-taking-notes-planner_1262-15019.jpg?w=740&t=st=1680209662~exp=1680210262~hmac=999f64d86d34c6481cd4b2004987e6cca6358d1aafef47544a188b8a93932eac",
+        "name": "Allie Soto",
+        "title": "Learn how to code online -we help you to change your life"
+    },
+    {
+        "id": "6425f467623df329fdd46ac6",
+        "coverImage": "https://img.freepik.com/free-photo/coding-man_1098-18084.jpg?w=740&t=st=1680209834~exp=1680210434~hmac=e3c31e7eb2a1366e1dd32f87544e2b07e27c4ca40a5041d5d8662ff19e69dde9",
+        "authorImage": "https://img.freepik.com/free-photo/woman-working-writing-down-thoughts-her-planner-sitting-city-centre-business-clothing_1258-124685.jpg?w=740&t=st=1680209658~exp=1680210258~hmac=0dbf1eb4ec9304f9b95839ae99a8e142342644574fa682500d7bb191f9426c68",
+        "name": "Alexandria Banks",
+        "title": "How to get your first job as a self-taught programmer"
+    },
+    {
+        "id": "6425f4671f9db60397478e43",
+        "coverImage": "https://img.freepik.com/free-photo/programming-background-with-person-working-with-codes-computer_23-2150010140.jpg?w=740&t=st=1680209825~exp=1680210425~hmac=894708f0e6e784ded937c437fd3514e9501294255a9373b983780839a0adc898",
+        "authorImage": "https://img.freepik.com/free-photo/businesswoman-cafe_1157-5148.jpg?w=740&t=st=1680209675~exp=1680210275~hmac=44de8b8c12514a810af86d4bfba63f856db6770042d86ba4657ac4e8a0f00b3f",
+        "name": "Alison Hayes",
+        "title": "Learn programming for technological solutions of social life"
+    },
+    {
+        "id": "6425f467e78590ca82134d26",
+        "coverImage": "https://img.freepik.com/free-photo/close-up-image-programer-working-his-desk-office_1098-18707.jpg?w=740&t=st=1680209822~exp=1680210422~hmac=a9825d30543749a26bc726cc22baebc0e8296b626b1dad297e53b31f01235c7f",
+        "authorImage": "https://img.freepik.com/free-photo/girl-sketching_1098-13895.jpg?w=740&t=st=1680209699~exp=1680210299~hmac=c7d32b73413af7d0689b11bfdfa9662383db39367ae0ef797ed9dedb3a7fbe96",
+        "name": "Dee Morrison",
+        "title": "We will learn Best Programming Tricks on this blog"
+    }
+]
