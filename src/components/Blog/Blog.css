@@ -20,9 +20,9 @@
 }
 
 .blog-img {
-    width: 600px;
-    height: 380px;
     border-radius: 8px;
+    width: 100%;
+
 }
 
 .author-info {
@@ -63,4 +63,12 @@
 
 .bookmark-icon {
     color: black;
+}
+
+@media screen and (min-width: 576px) {
+    .blog-img {
+        width: 600px;
+        height: 380px;
+        border-radius: 8px;
+    }
 }

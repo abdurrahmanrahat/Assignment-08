@@ -1,8 +1,5 @@
 .main-body{
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    grid-gap: 5px;
-    padding: 0 200px;
+    margin: 10px 20px;
 }
 
 .book-blogs {
@@ -11,7 +8,7 @@
     margin: 0;
 }
 
-.timeSpend{
+.timeSpend {
     background-color: #F3F3F3;
     border: 1px solid #6047EC;
     border-radius: 10px;
@@ -21,8 +18,17 @@
 
 
 
-.sitebar-container{
+.sitebar-container {
     background-color: #F3F3F3;
     padding: 8px;
     border-radius: 10px;
+}
+
+@media screen and (min-width: 576px) {
+    .main-body {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        grid-gap: 5px;
+        padding: 0px 200px;
+    }
 }
