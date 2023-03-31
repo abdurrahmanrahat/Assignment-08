@@ -1,6 +1,8 @@
 .blog {
     /* border: 1px solid gray; */
     margin-bottom: 60px;
+    /* width: 840px;
+    height: 820px; */
 }
 
 .blog h2 {
@@ -16,8 +18,8 @@
 }
 
 .blog-img {
-    width: 640px;
-    height: 400px;
+    width: 600px;
+    height: 380px;
     border-radius: 8px;
 }
 

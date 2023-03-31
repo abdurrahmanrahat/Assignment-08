@@ -1,0 +1,10 @@
+.bookmark-blog-title {
+    margin-left: 6px;
+}
+
+.bookmark-blog-title h6 {
+    font-weight: 600;
+    font-size: 14px;
+    background-color: #fff;
+    border-radius: 8px;
+}

@@ -2,5 +2,17 @@
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-gap: 15px;
-    padding: 0 300px;
+    padding: 0 200px;
+}
+
+.book-blogs {
+    font-weight: 700;
+    font-size: 20px;
+    margin: 0;
+}
+
+
+
+.sitebar-container{
+    background-color: #F3F3F3;
 }
