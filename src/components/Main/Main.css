@@ -1,7 +1,7 @@
 .main-body{
     display: grid;
     grid-template-columns: 2fr 1fr;
-    grid-gap: 15px;
+    grid-gap: 5px;
     padding: 0 200px;
 }
 
@@ -11,8 +11,18 @@
     margin: 0;
 }
 
+.timeSpend{
+    background-color: #F3F3F3;
+    border: 1px solid #6047EC;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
 
 
 .sitebar-container{
     background-color: #F3F3F3;
+    padding: 8px;
+    border-radius: 10px;
 }

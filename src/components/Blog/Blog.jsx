@@ -8,6 +8,7 @@ const Blog = (props) => {
     const { id, coverImage, authorImage, name, title, read } = props.blog;
 
     const bookmarkHandler = props.bookmarkHandler;
+    const readTimeHandler = props.readTimeHandler;
 
     return (
         <div className='blog'>
@@ -21,10 +22,11 @@ const Blog = (props) => {
                     </div>
                 </div>
 
-                <p>{read} <span className='bookmark-icon' onClick={() => bookmarkHandler(title)}><FontAwesomeIcon icon={faBookmark} /></span></p>
+                <p>{read} min read <span className='bookmark-icon' onClick={() => bookmarkHandler(title)}><FontAwesomeIcon icon={faBookmark} /></span></p>
             </div>
             <h2>{title}</h2>
-            <a href="#">Mark as read</a>
+            {/* <a onClick={() => readTimeHandler(read)} href="#">Mark as read</a> */}
+            <button onClick={() => readTimeHandler(read)}>Mark as read</button>
         </div>
     );
 };

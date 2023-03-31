@@ -6,6 +6,7 @@ import SiteCard from '../SiteCard/SiteCard';
 const Main = () => {
     const [blogs, setBlogs] = useState([]);
     const [titles, setTitles] = useState([]);
+    const [alltime, setAlltime] = useState(0);
 
     useEffect(() => {
         fetch('blog.json')
@@ -17,7 +18,11 @@ const Main = () => {
         const newTitles = [...titles, title];
         setTitles(newTitles);
     }
-    console.log(titles);
+
+    const readTimeHandler = time => {
+        const newTime = alltime + time;
+        setAlltime(newTime);
+    }
 
     return (
         <main className='main-body'>
@@ -27,17 +32,21 @@ const Main = () => {
                         blog={blog}
                         key={blog.id}
                         bookmarkHandler={bookmarkHandler}
+                        readTimeHandler={readTimeHandler}
                     ></Blog>)
                 }
             </div>
-            <div className='sitebar-container'>
-                <h2></h2>
-                <h2 className='book-blogs'>Bookmarked Blogs: {titles.length}</h2>
-                {
-                    titles.map(title => <SiteCard title={title}></SiteCard>)
-                }
+            <div className='sitebar'>
+                <div className='timeSpend'>
+                    <h2>Spent time on read: {alltime}</h2>
+                </div>
+                <div className='sitebar-container'>
+                    <h2 className='book-blogs'>Bookmarked Blogs: {titles.length}</h2>
+                    {
+                        titles.map(title => <SiteCard title={title} key={title}></SiteCard>)
+                    }
+                </div>
             </div>
-
         </main>
     );
 };

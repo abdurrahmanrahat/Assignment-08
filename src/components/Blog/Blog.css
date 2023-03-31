@@ -11,10 +11,12 @@
     margin-right: 100px;
 }
 
-.blog a {
+.blog button {
     font-weight: 600;
     font-size: 20px;
     color: #6047EC;
+    text-decoration: underline;
+    border: none !important;
 }
 
 .blog-img {
