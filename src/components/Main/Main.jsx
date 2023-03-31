@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import './Main.css'
 import Blog from '../Blog/Blog';
 import SiteCard from '../SiteCard/SiteCard';
+import { ToastContainer, toast } from 'react-toastify';
 
 const Main = () => {
     const [blogs, setBlogs] = useState([]);
@@ -14,9 +15,15 @@ const Main = () => {
             .then(data => setBlogs(data))
     }, [])
 
-    const bookmarkHandler = title => {
-        const newTitles = [...titles, title];
-        setTitles(newTitles);
+    const bookmarkHandler = paraTitle => {
+        const foundTitle = titles.find(title => title === paraTitle);
+        if (foundTitle) {
+            toast('You Have Already Bookmarked This Blog');
+        }
+        else {
+            const newTitles = [...titles, paraTitle];
+            setTitles(newTitles);
+        }
     }
 
     const readTimeHandler = time => {
