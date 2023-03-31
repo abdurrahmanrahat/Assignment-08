@@ -1,0 +1,62 @@
+.blog {
+    /* border: 1px solid gray; */
+    margin-bottom: 60px;
+}
+
+.blog h2 {
+    font-weight: 700;
+    font-size: 32px;
+    margin-right: 100px;
+}
+
+.blog a {
+    font-weight: 600;
+    font-size: 20px;
+    color: #6047EC;
+}
+
+.blog-img {
+    width: 640px;
+    height: 400px;
+    border-radius: 8px;
+}
+
+.author-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.author-img-name {
+    display: flex;
+}
+
+.author-name-date {
+    margin-left: 16px;
+}
+
+.author-info img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+
+}
+
+.author-info h4 {
+    font-weight: 700;
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+}
+
+.author-info p {
+    color: rgba(17, 17, 17, 0.6);
+    font-weight: 600;
+    font-size: 16px;
+    margin: 0;
+}
+
+.bookmark-icon {
+    color: black;
+}
