@@ -18,7 +18,7 @@ const Main = () => {
     const bookmarkHandler = paraTitle => {
         const foundTitle = titles.find(title => title === paraTitle);
         if (foundTitle) {
-            toast('You Have Already Bookmarked This Blog');
+            toast('You Have Already Bookmarked This Blog!!');
         }
         else {
             const newTitles = [...titles, paraTitle];

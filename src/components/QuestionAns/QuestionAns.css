@@ -1,0 +1,20 @@
+.blogs-container{
+    padding: 10px 20px;
+}
+
+.hr-div{
+    padding: 30px 10px;
+}
+
+.blog h2{
+    font-size: 20px;
+}
+
+@media screen and (min-width: 576px) {
+    .blogs-container{
+        padding: 10px 200px;
+    }
+    .hr-div{
+        padding: 0px 200px 10px 200px;
+    }
+}
